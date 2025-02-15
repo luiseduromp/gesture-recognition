@@ -19,7 +19,7 @@ The neural networks training was done using Google Colab. The notebooks included
 
 ### Inference
 The inference module includes the individual implementations on each Arduino. Both implementations have been developed to be almost the same, however, since part of the requirement of the project was to test different real time operating systems, there are some slight changes between each other.
-- Arduino Mega 2560 works with FreeRTOS, and was implemented using Gioggos Xou [NeuralNetworks](https://github.com/GiorgosXou/NeuralNetworks) library. The library is very well documented, is easy to use and has lots of examples.
+- Arduino Mega 2560 works with FreeRTOS, and was implemented using Giorgos Xou's [NeuralNetworks](https://github.com/GiorgosXou/NeuralNetworks) library. The library is very well documented, is easy to use and has lots of examples.
 - Arduino Giga R1 runns with MbedOS, and the inference engine is [ArduTFLite](https://github.com/spaziochirale/ArduTFLite) by Spazio Chirale. This library has a very easy to use API.
 
 ### Evaluation
