@@ -30,5 +30,5 @@ The interface module was designed as a web application. The backend is a FastAPI
 
 
 
-> [!INFO]
+> [!NOTE]
 > The master's final project of which this repository is part, was financed and supported by the "Siemens Energy AI Chair: Energy Sustainability for a Decarbonized Society 5.0"; (TSI-100930-2023-5), funded by the Secretary of State for Digitalization and Artificial Intelligence through the ENIA 2022 Chairs call, and co-funded by the European Union-Next Generation EU.
