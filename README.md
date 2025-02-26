@@ -23,4 +23,12 @@ The inference module includes the individual implementations on each Arduino. Bo
 - Arduino Giga R1 runns with MbedOS, and the inference engine is [ArduTFLite](https://github.com/spaziochirale/ArduTFLite) by Spazio Chirale. This library has a very easy to use API.
 
 ### Evaluation
-The last module has a python script that was developed to evaluate the real deployment of the gesture recognition system on each platform. The script reads the output from the serial port of the Arduino and after receiving a detected gesture, a prompt is shown in the terminal asking if the detected gesture was correct. After a number of samples taken, the individual precision of each gesture is calculated.
+The evaluation module has a python script that was developed to evaluate the real deployment of the gesture recognition system on each platform. The script reads the output from the serial port of the Arduino and after receiving a detected gesture, a prompt is shown in the terminal asking if the detected gesture was correct. After a number of samples taken, the individual precision of each gesture is calculated.
+
+### Interface
+The interface module was designed as a web application. The backend is a FastAPI app, which has been setup to work with websockets to enable direct updates of gesture detections to the client. And the frontend is the actual interface built using React. The interface was developed to take the real-time gesture data and the processed gestures, and it shows both in the browser.
+
+
+
+> [!INFO]
+> The master's final project of which this repository is part, was financed and supported by the "Siemens Energy AI Chair: Energy Sustainability for a Decarbonized Society 5.0"; (TSI-100930-2023-5), funded by the Secretary of State for Digitalization and Artificial Intelligence through the ENIA 2022 Chairs call, and co-funded by the European Union-Next Generation EU.
